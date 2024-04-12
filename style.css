@@ -1,0 +1,75 @@
+
+        /* Background styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://cdn.discordapp.com/attachments/1221198037464911893/1228248676384768020/IMG_0310.jpeg?ex=662b5ab8&is=6618e5b8&hm=641ed669b779c90f5966fc8c1010483f0757c71a1e5877c22552ae337ff007bc');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+
+        /* Menu styles */
+        .menu-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+            color: white;
+            padding: 10px 20px;
+            z-index: 1;
+        }
+
+        .menu-container button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .menu-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            right: 20px;
+            top: 40px;
+        }
+
+        .menu-content a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 8px 0;
+        }
+
+        .menu-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .show {
+            display: block;
+        }
+
+        /* Main content styles */
+        .container {
+            margin-top: 50px; /* Adjust to leave space for the menu */
+            text-align: center;
+        }
+
+        /* Header styles */
+        .container h1 {
+            color: white;
+            font-size: 36px;
+        }
+
+        .container p {
+            color: white;
+            font-size: 18px;
+        }
+    </style>
